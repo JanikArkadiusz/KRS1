@@ -5,7 +5,12 @@ using System.Web;
 
 namespace Repository.Models
 {
-    public class IndividuallyRegisteredAnimals:Animal
+    public enum Gender
+    {
+        male, fimale
+    }
+
+    public class IndividuallyRegisteredAnimals : Animal
     {
         public DateTime DateOfBirth { get; set; }
         public Gender Gender { get; set; }
@@ -24,5 +29,8 @@ namespace Repository.Models
             throw new NotImplementedException();
         }
     }
+
+
+
 }
-
+

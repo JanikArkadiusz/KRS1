@@ -9,8 +9,9 @@ namespace Repository.Models
     {
         public string HerdId { get; set; }
         public string Type { get; set; }
-        public string Description { get; set; }
-        public string Comments { get; set; } 
+        public string Localization { get; set; }
+        public string Comments { get; set; }
 
+        public virtual ICollection<Animal> Animals { get; set; }
     }
 }

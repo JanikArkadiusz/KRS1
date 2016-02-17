@@ -6,11 +6,7 @@ using Repository.Models;
 
 namespace Repository.Models
 {
-    public enum Gender
-    {
-        male, fimale
-    }
-
+ 
 
 
     public class Cattle : IndividuallyRegisteredAnimals,IRepository
@@ -19,7 +15,8 @@ namespace Repository.Models
       
         public string ComeFromHerd { get; set; }
         public string DestinationHerd { get; set; }
-        public string PresentHerd { get; set; }
+  //      public string PresentHerd { get; set; }
+
 
         public void Create() { throw new NotImplementedException(); }
         public void Remove() { throw new NotImplementedException(); }

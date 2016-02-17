@@ -7,9 +7,11 @@ namespace Repository.Models
 {
     public class Breed:IRepository
     {
-        public string BreedID { get; set; }
+        public string BreedId { get; set; }
         public string Name { get; set; }
+
         protected Dictionary<string, string> CattleBreedList = new Dictionary<string, string>();
+        public string Info { get; set; }
         public string Comments { get; set; }
 
         public void Create() { throw new NotImplementedException(); }
