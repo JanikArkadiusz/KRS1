@@ -1,0 +1,19 @@
+I. za³o¿enia:
+1. ewidencja poszczególnych grup zwierz¹t z podzia³em na gatunki: 
+	a) wydruk ksiêgi zgodnej z wzorem ARiMR,
+	b) przechowywanie informacji na temat zdarzeñ i zwierz¹t z podzia³em na poszczególne grupy zwierz¹t.
+2. mo¿liwoœæ zg³aszania zdarzeñ.
+	a) wydruk do pdf
+	b) wydruk do plików xml(zgodnych z wzorem arimr)
+	Lista zdarzeñ eksportowanych do xml:
+		Zg³oszenie uboju byd³a w rzeŸni,
+		Zg³oszenie uboju w rzeŸni owiec albo kóz,
+		Zg³oszeniu uboju œwiñ w rzeŸni,
+		Zg³oszenie unieszkodliwienia zw³ok byd³a, owiec albo kóz,
+		Zg³oszenie unieszkodliwienia zw³ok œwiñ,
+		Zg³oszenie przemieszczenia byd³a, owiec albo kóz,
+		Zg³oszenie przemieszczenia byd³a poprzez targ,
+		Zg³oszenie zmiany stanu stada œwiñ.
+3. raportowanie:
+	a) zliczanie stanu pog³owia
+	b) przegl¹d informacji o zwirzêtach znakowanych indywidualnie i grupowo.
